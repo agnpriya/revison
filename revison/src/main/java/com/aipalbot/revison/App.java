@@ -2,6 +2,7 @@ package com.aipalbot.revison;
 
 import java.util.Scanner;
 
+import com.aipalbot.revison.programs.ArrayExample;
 import com.aipalbot.revison.programs.Expression;
 import com.aipalbot.revison.programs.Grading;
 
@@ -19,6 +20,8 @@ public class App
     	
     	Grading gd = new Grading();
     	gd.grade();
-    		
+    	
+    	ArrayExample a = new ArrayExample();
+    	 a.calculateAmount();
     }
 }
